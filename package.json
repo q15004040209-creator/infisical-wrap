@@ -1,0 +1,33 @@
+{
+  "name": "infisical-wrap",
+  "version": "1.0.0",
+  "description": "开源密钥管理平台 Infisical 的 TypeScript 封装 - 支持 secrets/certificates/kms 管理",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "infisical",
+    "secret-management",
+    "secrets",
+    "kms",
+    "certificate",
+    "pki",
+    "typescript"
+  ],
+  "author": "q15004040209-creator",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/q15004040209-creator/infisical-wrap"
+  },
+  "peerDependencies": {
+    "axios": ">=1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
